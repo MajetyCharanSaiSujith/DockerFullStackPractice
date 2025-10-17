@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #007BFF;
+  padding: 15px 30px;
+  color: white;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 16px;       /* Button padding */
+  border-radius: 6px;      /* Rounded corners */
+  background: rgba(255, 255, 255, 0.1); /* Slight background */
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: #007BFF;
+  transform: translateY(-2px); /* small lift effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
